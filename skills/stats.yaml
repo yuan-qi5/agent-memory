@@ -1,0 +1,14 @@
+# Skill 使用频率统计
+# Agent 每次读取 approved skill 后 best-effort 更新
+# 用于审核流程中的库健康检查，辅助维护决策
+# 数据为近似值，不追求精确，不应作为唯一决策依据
+
+# 条目格式示例（实际条目在 skill 审核通过时创建，读取 skill 时更新）：
+#
+# deepspeed-stage3-ckpt:
+#   use_count: 5
+#   last_used: 2026-02-28
+#
+# nccl-timeout:
+#   use_count: 2
+#   last_used: 2026-02-15

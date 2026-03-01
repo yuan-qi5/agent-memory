@@ -1,0 +1,18 @@
+# Approved Skills 索引
+# 由 scripts/generate-index.sh 自动生成，或在 skill 审核通过时由 agent 更新
+# Agent 遇到技术问题时读取此文件，根据 title 和 tags 定位相关 skill
+
+skills: []
+
+# 条目格式示例（实际条目由审核流程或脚本生成）：
+#
+# skills:
+#   - id: deepspeed-stage3-ckpt
+#     title: "DeepSpeed Stage3 checkpoint 保存不完整"
+#     tags: [deepspeed, zero3, checkpoint]
+#     path: approved/deepspeed/stage3-checkpoint.md
+#
+#   - id: nccl-timeout
+#     title: "多机训练 NCCL timeout 排查"
+#     tags: [distributed, nccl, debug]
+#     path: approved/pytorch/nccl-timeout.md
