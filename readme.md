@@ -65,7 +65,9 @@ chmod +x ~/.agent-memory/adapters/init-all.sh ~/.agent-memory/scripts/generate-i
 ~/.agent-memory/adapters/init-all.sh
 ```
 
-这会在 Claude Code（`~/.claude/CLAUDE.md`）和 Codex（`~/.codex/AGENTS.md`）的全局配置中写入指向 `~/.agent-memory/` 的引用。只需运行一次，后续修改 persona.md 自动生效。
+这会在 Claude Code（`~/.claude/CLAUDE.md`）和 Codex CLI（`~/.codex/AGENTS.md`）的全局配置中写入指向 `~/.agent-memory/` 的引用。只需运行一次，后续修改 persona.md 自动生效。
+
+**注意**：Codex VSCode 插件不读取全局配置，需要在项目根目录的 `AGENTS.md` 中手动添加引用。
 
 如果你已有自定义配置，脚本会提示你选择覆盖或跳过。
 
