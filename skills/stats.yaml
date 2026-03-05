@@ -12,3 +12,6 @@
 # nccl-timeout:
 #   use_count: 2
 #   last_used: 2026-02-15
+
+huggingface-hf-download-usage:
+  use_count: 0
