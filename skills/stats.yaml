@@ -14,4 +14,9 @@
 #   last_used: 2026-02-15
 
 huggingface-hf-download-usage:
+  use_count: 1
+  last_used: 2026-03-06
+openvla-prismatic-image-token-position:
+  use_count: 0
+prismatic-native-checkpoint-loading:
   use_count: 0

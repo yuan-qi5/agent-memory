@@ -7,3 +7,11 @@ skills:
     title: "hf download 命令下载 HuggingFace 模型"
     tags: [huggingface, download, mirror, china]
     path: approved/huggingface/hf-download-usage.md
+  - id: openvla-prismatic-image-token-position
+    title: "OpenVLA/Prismatic 中找不到 <image> token，如何确定图像 token 位置"
+    tags: [openvla, prismatic, tokenizer, input_ids, bos, image-token, attention]
+    path: approved/prismatic/openvla-prismatic-image-token-position.md
+  - id: prismatic-native-checkpoint-loading
+    title: "原生 Prismatic checkpoint 不能直接用 transformers AutoModel 加载"
+    tags: [prismatic, transformers, automodel, checkpoint, siglip, loading]
+    path: approved/prismatic/prismatic-native-checkpoint-loading.md
