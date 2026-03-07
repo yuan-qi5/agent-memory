@@ -20,3 +20,9 @@ openvla-prismatic-image-token-position:
   use_count: 0
 prismatic-native-checkpoint-loading:
   use_count: 0
+prismatic-forward-attention-api:
+  use_count: 0
+prismatic-vision-backbone-local-loading:
+  use_count: 0
+llava-prompt-image-token:
+  use_count: 0

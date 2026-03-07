@@ -15,3 +15,15 @@ skills:
     title: "原生 Prismatic checkpoint 不能直接用 transformers AutoModel 加载"
     tags: [prismatic, transformers, automodel, checkpoint, siglip, loading]
     path: approved/prismatic/prismatic-native-checkpoint-loading.md
+  - id: prismatic-forward-attention-api
+    title: "PrismaticVLM 提取 attention 不能用 HF 风格 API"
+    tags: [prismatic, attention, forward, api, huggingface]
+    path: approved/prismatic/prismatic-forward-attention-api.md
+  - id: prismatic-vision-backbone-local-loading
+    title: "Prismatic vision backbone 默认从 timm/HF 加载，离线时需要改成本地权重"
+    tags: [prismatic, timm, vision-backbone, dinov2, siglip, offline, local-loading]
+    path: approved/prismatic/prismatic-vision-backbone-local-loading.md
+  - id: llava-prompt-image-token
+    title: "LLaVA processor 直接传入纯文本导致找不到 image token"
+    tags: [llava, multimodal, chat-template, tokenizer, image-token]
+    path: approved/llava/llava-prompt-image-token.md
