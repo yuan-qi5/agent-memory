@@ -17,12 +17,16 @@ huggingface-hf-download-usage:
   use_count: 1
   last_used: 2026-03-06
 openvla-prismatic-image-token-position:
-  use_count: 0
+  use_count: 1
+  last_used: 2026-03-08
 prismatic-native-checkpoint-loading:
-  use_count: 0
+  use_count: 1
+  last_used: 2026-03-08
 prismatic-forward-attention-api:
-  use_count: 0
+  use_count: 1
+  last_used: 2026-03-08
 prismatic-vision-backbone-local-loading:
   use_count: 0
 llava-prompt-image-token:
-  use_count: 0
+  use_count: 3
+  last_used: 2026-03-08
